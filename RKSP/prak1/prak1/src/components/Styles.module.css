@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.headers {
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.title {
+  margin: 0px 40px;
+}
+.main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid 1px;
+  height: 100px;
+}
+.article {
+  margin-left: 40px;
+}
