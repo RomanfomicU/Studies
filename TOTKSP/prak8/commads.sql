@@ -42,13 +42,22 @@ UPDATE example_table SET value = 'Updated 1 by Session 1' WHERE id = 1;
 BEGIN;
 UPDATE example_table SET value = 'Updated 2 by Session 2' WHERE id = 2;
 
+-- Session 3 --
+
+BEGIN;
+UPDATE example_table SET value = 'Updated 3 by Session 3' WHERE id = 3;
+
 -- Session 1 --
 
 UPDATE example_table SET value = 'Updated 2 by Session 1' WHERE id = 2;
 
 -- Session 2 --
 
-UPDATE example_table SET value = 'Updated 1 by Session 2' WHERE id = 1;
+UPDATE example_table SET value = 'Updated 3 by Session 2' WHERE id = 3;
+
+-- Session 3 --
+
+UPDATE example_table SET value = 'Updated 1 by Session 3' WHERE id = 1;
 
 
 -- Task 3 --
