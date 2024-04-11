@@ -96,7 +96,7 @@ public class UserService {
         RegistrationRedirectDTO redirectDTO = new RegistrationRedirectDTO(
                 registrationDTO.getUsername(),
                 registrationDTO.getPassword(),
-                "USER"
+                "ADMIN"
         );
 
         String sourceUrl = "http://authservice:" + authServicePort + "/createuser";

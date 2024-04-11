@@ -75,7 +75,6 @@ public class AuthController {
         return "User created successfully";
     }
 
-    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping(path = "api/update/{username}")
     public String updateUser(@PathVariable String username, @RequestBody User user) {
         userDetailsService.updateUser(username, user);
