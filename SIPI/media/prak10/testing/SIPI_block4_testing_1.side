@@ -1,0 +1,362 @@
+{
+  "id": "f7fb2cac-af39-47ad-8011-e22f656e689a",
+  "version": "2.0",
+  "name": "SIPI_block4",
+  "url": "http://localhost:8081/api/start?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJuYmYiOjE3MTI5MjA4MzAsImV4cCI6MTcxMzAwNzIzMCwidXNlcklkIjoiMSIsImF1dGhvcml0aWVzIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiQWRtaW4ifQ.iU_e7bMqoumM277b5M5xMDtIEnMNWQY90VxYsL_02Lk",
+  "tests": [{
+    "id": "3b82a001-3333-4087-9f81-fc9bbb4f6b65",
+    "name": "Function",
+    "commands": [{
+      "id": "31f28d78-0941-42fb-aac3-a44c55c5e178",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67362dfc-234d-446e-8731-aaa1c0c7137e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8081/api/start?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJuYmYiOjE3MTI5MjA4MzAsImV4cCI6MTcxMzAwNzIzMCwidXNlcklkIjoiMSIsImF1dGhvcml0aWVzIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiQWRtaW4ifQ.iU_e7bMqoumM277b5M5xMDtIEnMNWQY90VxYsL_02Lk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58891a89-62bb-4490-94c4-fd90d15fca25",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.basic_card_container",
+      "targets": [
+        ["css=.card", "css:finder"],
+        ["xpath=//div[@id='main_cards_container']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa48fc16-f641-4901-acda-335e778d05eb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.card",
+      "targets": [
+        ["css=.card", "css:finder"],
+        ["xpath=//div[@id='main_cards_container']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df47489a-f1a0-454f-b28a-9042b05872e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//a[contains(text(),'Аренда')]", "xpath:link"],
+        ["xpath=//div[@id='main_cards_container']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJuYmYiOjE3MTI5MjA4MzAsImV4cCI6MTcxMzAwNzIzMCwidXNlcklkIjoiMSIsImF1dGhvcml0aWVzIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiQWRtaW4ifQ.iU_e7bMqoumM277b5M5xMDtIEnMNWQY90VxYsL_02Lk')]", "xpath:href"],
+        ["xpath=//div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99cb6378-5dd8-4bb4-93f5-c84a8664371c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=current_rent_info",
+      "targets": [
+        ["id=current_rent_info", "id"],
+        ["css=#current_rent_info", "css:finder"],
+        ["xpath=//div[@id='current_rent_info']", "xpath:attributes"],
+        ["xpath=//header/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58e55387-eeb9-47b9-8fe2-7a091a5db434",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa",
+      "targets": [
+        ["css=.fa", "css:finder"],
+        ["xpath=//div[@id='btn_block']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adc8fb19-be64-4b6a-996a-3f5a450170e0",
+      "comment": "",
+      "command": "pause",
+      "target": "100",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d558ccab-9a85-4b86-b4dd-15da6c6ad5b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=.header_user_info_enabled:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//div[@id='user_info_div']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'profile?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJuYmYiOjE3MTI5MjM5MTUsImV4cCI6MTcxMzAxMDMxNSwidXNlcklkIjoiMSIsImF1dGhvcml0aWVzIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiQWRtaW4ifQ.3hBcT-ZmFX7UuByXMwJyBsB5rb1KUTE9f7v_qY1zWMQ')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Admin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "089d4425-52a8-4ec1-ae64-58ca7ff3ed83",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.table-header",
+      "targets": [
+        ["css=.card", "css:finder"],
+        ["xpath=//div[@id='main_cards_container']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9deea592-736b-44c4-afa8-eed03f77c5f0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.col-3",
+      "targets": [
+        ["css=.col-3", "css:finder"],
+        ["xpath=//div[@id='last_purchases_block']/div/ul/li/div[3]", "xpath:idRelative"],
+        ["xpath=//li/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66882df1-db81-4fed-b8f7-d29c706f0377",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.col-4",
+      "targets": [
+        ["css=.col-4", "css:finder"],
+        ["xpath=//div[@id='last_purchases_block']/div/ul/li/div[4]", "xpath:idRelative"],
+        ["xpath=//li/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94f7e9e0-2d7d-4d7b-b732-08911a8a769c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.col-5",
+      "targets": [
+        ["css=.col-5", "css:finder"],
+        ["xpath=//div[@id='last_purchases_block']/div/ul/li/div[5]", "xpath:idRelative"],
+        ["xpath=//li/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "338fa921-0dd3-4527-bb40-cc5d9a9d6d33",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.col-6",
+      "targets": [
+        ["css=.col-6", "css:finder"],
+        ["xpath=//div[@id='last_purchases_block']/div/ul/li/div[6]", "xpath:idRelative"],
+        ["xpath=//li/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06d0afa-efbb-478d-951f-6cc64ee7d1dc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.col-7",
+      "targets": [
+        ["css=.col-7", "css:finder"],
+        ["xpath=//div[@id='last_purchases_block']/div/ul/li/div[7]", "xpath:idRelative"],
+        ["xpath=//li/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47ab006c-3f6c-410d-9451-b0c1537d5fa7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8081/register?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJJdmFuIiwicGFzc3dvcmQiOiIxMjM0NTY3OCIsIm5iZiI6MTcxMjkxNDI5MCwiZXhwIjoxNzEzMDAwNjkwLCJ1c2VySWQiOiIxIiwiYXV0aG9yaXRpZXMiOiJST0xFX1VTRVIiLCJ1c2VybmFtZSI6Ikl2YW4ifQ.QNNxqlDQ_fJq-h07ACLl4MExOik_xPWyR1CUD-J_BfA",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddd2c5ef-cf74-42ae-885e-fdce15e1cdb4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.form_label:nth-child(2)",
+      "targets": [
+        ["css=.form_label:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='user_form']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Серия номер пасспорта:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "824aa221-e736-4607-b00c-57a91e7965ba",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.form_label:nth-child(4)",
+      "targets": [
+        ["css=.form_label:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='user_form']/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'ФИО пользователя:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f32401e7-532f-4f34-bf7b-c1002a8f5faf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.form_label:nth-child(6)",
+      "targets": [
+        ["css=.form_label:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='user_form']/label[3]", "xpath:idRelative"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Дата рождения:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f973b973-2507-43f6-be14-3e8c82315d74",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.form_label:nth-child(8)",
+      "targets": [
+        ["css=.form_label:nth-child(8)", "css:finder"],
+        ["xpath=//form[@id='user_form']/label[4]", "xpath:idRelative"],
+        ["xpath=//label[4]", "xpath:position"],
+        ["xpath=//label[contains(.,'Имя пользователя:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17cabfe-6b8d-4dd8-a166-ec57e5482bbb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.form_label:nth-child(10)",
+      "targets": [
+        ["css=.form_label:nth-child(10)", "css:finder"],
+        ["xpath=//form[@id='user_form']/label[5]", "xpath:idRelative"],
+        ["xpath=//label[5]", "xpath:position"],
+        ["xpath=//label[contains(.,'Пароль:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ac81cf-83e2-4d25-bc38-23e6251b7e72",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8081/api/admin/vehicle?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJuYmYiOjE3MTI5MjM5MTUsImV4cCI6MTcxMzAxMDMxNSwidXNlcklkIjoiMSIsImF1dGhvcml0aWVzIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiQWRtaW4ifQ.3hBcT-ZmFX7UuByXMwJyBsB5rb1KUTE9f7v_qY1zWMQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de6c6bc5-2ec8-4bbe-bdf3-85faa6250757",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.mb-5 > .col > h1",
+      "targets": [
+        ["css=.mb-5 > .col > h1", "css:finder"],
+        ["xpath=//div/div/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Add new vehicle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d35790cd-e5b3-4162-94d3-9c3a888bd98e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=new_vin",
+      "targets": [
+        ["id=new_vin", "id"],
+        ["css=#new_vin", "css:finder"],
+        ["xpath=//input[@id='new_vin']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4302640a-fe5e-4c13-92cc-455be681a1c0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=new_color",
+      "targets": [
+        ["id=new_color", "id"],
+        ["css=#new_color", "css:finder"],
+        ["xpath=//input[@id='new_color']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53fd05d9-a2a5-4363-90e4-3a580b176435",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=new_state",
+      "targets": [
+        ["id=new_state", "id"],
+        ["css=#new_state", "css:finder"],
+        ["xpath=//input[@id='new_state']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eed7d14e-7b7c-43c4-9619-6b6f9ec4b2b6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=new_place",
+      "targets": [
+        ["id=new_place", "id"],
+        ["css=#new_place", "css:finder"],
+        ["xpath=//input[@id='new_place']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da086df1-c994-45d9-871c-0351202fd8bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=new_work_model_id",
+      "targets": [
+        ["id=new_work_model_id", "id"],
+        ["css=#new_work_model_id", "css:finder"],
+        ["xpath=//input[@id='new_work_model_id']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d69221ab-2495-43f7-972e-f2d19d6f289e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.row:nth-child(2) > .col > h1",
+      "targets": [
+        ["css=.row:nth-child(2) > .col > h1", "css:finder"],
+        ["xpath=//div[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Delete vehicle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebd04a2d-ae90-48b0-8c97-f54740ab6980",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=del_vin",
+      "targets": [
+        ["id=del_vin", "id"],
+        ["css=#del_vin", "css:finder"],
+        ["xpath=//input[@id='del_vin']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8fe0cc2-7302-4449-b571-16980c95838e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=delete_vehicle",
+      "targets": [
+        ["id=delete_vehicle", "id"],
+        ["css=#delete_vehicle", "css:finder"],
+        ["xpath=//button[@id='delete_vehicle']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'DELETE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "31445595-5385-401b-8a85-6cf8f19f1a4c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3b82a001-3333-4087-9f81-fc9bbb4f6b65"]
+  }],
+  "urls": ["http://localhost:8081/api/start?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJuYmYiOjE3MTI5MjA4MzAsImV4cCI6MTcxMzAwNzIzMCwidXNlcklkIjoiMSIsImF1dGhvcml0aWVzIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiQWRtaW4ifQ.iU_e7bMqoumM277b5M5xMDtIEnMNWQY90VxYsL_02Lk", "http://localhost:8081/api/profile?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJuYmYiOjE3MTI5MjE3OTYsImV4cCI6MTcxMzAwODE5NiwidXNlcklkIjoiMSIsImF1dGhvcml0aWVzIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiQWRtaW4ifQ._mjqPWw69_9iKiwxNboztBqQK6hMG9jdGZN4aGfnxro"],
+  "plugins": []
+}
