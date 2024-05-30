@@ -1,0 +1,220 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1716803104545197, "dur":16342, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716803104561594, "dur":304, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716803104561919, "dur":2071, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716803104563992, "dur":135952, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716803104699948, "dur":222, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716803104700170, "dur":124, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716803104700414, "dur":1044, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1716803104562277, "dur":1774, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716803104564055, "dur":620, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716803104564675, "dur":3292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716803104567968, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1716803104568067, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716803104600403, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1716803104601719, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716803104604614, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716803104607345, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716803104610277, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716803104613320, "dur":5494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716803104618889, "dur":81047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716803104562187, "dur":1821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716803104564011, "dur":712, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716803104564724, "dur":3244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716803104567986, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win32_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716803104567969, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716803104568045, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716803104573364, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716803104579862, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1716803104581630, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1716803104583950, "dur":5056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1716803104589070, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104590465, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104594100, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104596046, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104598204, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104603134, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716803104600676, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104603419, "dur":3100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104606576, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104609645, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104612694, "dur":5483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716803104618317, "dur":418, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716803104618737, "dur":3650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1716803104622451, "dur":77507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716803104562260, "dur":1776, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716803104564038, "dur":582, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716803104564621, "dur":3357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716803104567982, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1716803104568032, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716803104581720, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1716803104583917, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104588983, "dur":224, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716803104589209, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104591598, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104594287, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104596770, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104598540, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104601298, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104604364, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104607169, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104610243, "dur":3534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104613905, "dur":20592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716803104634543, "dur":65424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716803104562223, "dur":1797, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716803104564023, "dur":603, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716803104564627, "dur":3333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716803104567977, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win32_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716803104567961, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716803104568056, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716803104599620, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716803104601092, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716803104603645, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716803104606116, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716803104609249, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716803104611981, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716803104615352, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1716803104618040, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1716803104619966, "dur":80007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716803104562193, "dur":1821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716803104564017, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716803104564576, "dur":3389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716803104567984, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win32_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716803104567971, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716803104568086, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716803104629846, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716803104631605, "dur":68351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716803104562274, "dur":1768, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716803104564045, "dur":583, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716803104564629, "dur":3360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716803104568004, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win32_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1716803104567990, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1716803104568059, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716803104599757, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1716803104601243, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716803104603859, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716803104606292, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716803104609620, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716803104612502, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716803104616030, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1716803104618803, "dur":81135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716803104562254, "dur":1775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716803104564033, "dur":574, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716803104564608, "dur":3351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716803104567961, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":7, "ts":1716803104568847, "dur":10640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":7, "ts":1716803104579877, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1716803104581590, "dur":8105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104589754, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104591849, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104594103, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104595495, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104597717, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104599878, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104602011, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104605150, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104608294, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104611150, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716803104613849, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1716803104615163, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1716803104617637, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1716803104619446, "dur":80523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716803104562182, "dur":1817, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716803104564002, "dur":3951, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716803104576388, "dur":569, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":8, "ts":1716803104576963, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win\\Data\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1716803104577255, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\3BE3DA\\programming\\unity\\Projects\\SpaceWar\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716803104576962, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1716803104577919, "dur":118566, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1716803104699076, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1716803104699075, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SpaceWar_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1716803104699177, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1716803104562308, "dur":1752, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716803104564060, "dur":3902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716803104567963, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1716803104568015, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716803104576036, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1716803104579507, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1716803104581305, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win32_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104581302, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104581675, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104584700, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104587834, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104590174, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104592747, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104594907, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104597176, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104599234, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104601975, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104604952, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104608826, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104611758, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716803104614948, "dur":12561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1716803104627564, "dur":72382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716803104562345, "dur":1724, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716803104564070, "dur":3901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716803104567971, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1716803104568031, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716803104581886, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1716803104584685, "dur":4972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104589709, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104591708, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104593710, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104595137, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104597461, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104599501, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104603006, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104605683, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104608813, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104611622, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716803104614493, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1716803104619431, "dur":80510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716803104562366, "dur":1712, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716803104564079, "dur":3884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716803104567965, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1716803104568022, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716803104573005, "dur":6394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1716803104579866, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1716803104581367, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1716803104583283, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar.exe" }}
+,{ "pid":12345, "tid":11, "ts":1716803104584854, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104587824, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104589621, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104591300, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104593250, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104595257, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104597466, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104599403, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104601773, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104604761, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104607698, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104610624, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104613614, "dur":4259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716803104617946, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716803104621319, "dur":78644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716803104562397, "dur":1690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716803104564088, "dur":3869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716803104568726, "dur":324, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1716803104569321, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1716803104571368, "dur":7834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1716803104579454, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1716803104581239, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716803104581455, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1716803104583901, "dur":6178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104590136, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104592189, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104594282, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104596224, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104598177, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104603210, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716803104600949, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104603344, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104605903, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104609177, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104611960, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716803104614824, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716803104616238, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1716803104617632, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SpaceWar_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1716803104619313, "dur":80629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716803104702731, "dur":714, "ph":"X", "name": "ProfilerWriteOutput" }
+,
