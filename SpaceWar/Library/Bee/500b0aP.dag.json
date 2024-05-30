@@ -102,8 +102,8 @@
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
       "PayloadOffset": 98,
-      "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\3BE3DA\\programming\\un",
+      "PayloadLength": 32,
+      "PayloadDebugContentSnippet": "C:\\Users\\3BE3DA\\studies\\SpaceW",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/500b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -114,7 +114,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aP.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 233,
+      "PayloadOffset": 214,
       "PayloadLength": 39728,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -127,9 +127,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aP.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40046,
-      "PayloadLength": 64,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\3BE3DA\\prog",
+      "PayloadOffset": 40027,
+      "PayloadLength": 45,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\3BE3DA\\stud",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/500b0aP.dag/UnityEngine.UI.rsp2"
@@ -1538,7 +1538,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40204,
+      "PayloadOffset": 40166,
       "PayloadLength": 5794,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -1703,9 +1703,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 46103,
-      "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\3BE3DA\\programming\\un",
+      "PayloadOffset": 46065,
+      "PayloadLength": 32,
+      "PayloadDebugContentSnippet": "C:\\Users\\3BE3DA\\studies\\SpaceW",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -1716,7 +1716,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 46239,
+      "PayloadOffset": 46182,
       "PayloadLength": 32991,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -1729,7 +1729,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 79316,
+      "PayloadOffset": 79259,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -2000,7 +2000,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 79411,
+      "PayloadOffset": 79354,
       "PayloadLength": 5870,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -2226,7 +2226,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"C:/Users/3BE3DA/programming/unity/Editor/2022.3.29f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Users/3BE3DA/programming/unity/Editor/2022.3.29f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\3BE3DA\\programming\\unity\\Projects\\SpaceWar\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\3BE3DA\\programming\\unity\\Projects\\SpaceWar\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Projects\\SpaceWar\\Library\\Bee\\PlayerScriptAssemblies\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Users/3BE3DA/programming/unity/Editor/2022.3.29f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Users/3BE3DA/programming/unity/Editor/2022.3.29f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\3BE3DA\\studies\\SpaceWar\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\3BE3DA\\studies\\SpaceWar\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Users\\3BE3DA\\programming\\unity\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\3BE3DA\\studies\\SpaceWar\\Library\\Bee\\PlayerScriptAssemblies\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Users/3BE3DA/programming/unity/Editor/2022.3.29f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Users/3BE3DA/programming/unity/Editor/2022.3.29f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -2411,6 +2411,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/500b0aP.dag.json",
-  "PayloadsFile": "C:/Users/3BE3DA/programming/unity/Projects/SpaceWar/Library/Bee/500b0aP.dag.payloads",
+  "PayloadsFile": "C:/Users/3BE3DA/studies/SpaceWar/Library/Bee/500b0aP.dag.payloads",
   "RelativePathToRoot": "../.."
 }

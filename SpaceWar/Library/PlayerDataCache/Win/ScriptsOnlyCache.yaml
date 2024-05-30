@@ -102,41 +102,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1638}
     - Class: 114
-      Script: {instanceID: 1658}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 1744}
+      Script: {instanceID: 1684}
     - Class: 114
-      Script: {instanceID: 1768}
+      Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 1784}
+      Script: {instanceID: 1774}
     - Class: 114
-      Script: {instanceID: 1794}
+      Script: {instanceID: 1790}
     - Class: 114
-      Script: {instanceID: 1834}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 1864}
+      Script: {instanceID: 1840}
     - Class: 114
       Script: {instanceID: 1870}
     - Class: 114
-      Script: {instanceID: 1884}
+      Script: {instanceID: 1876}
     - Class: 114
-      Script: {instanceID: 1908}
+      Script: {instanceID: 1890}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1914}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 1948}
     - Class: 114
-      Script: {instanceID: 2008}
+      Script: {instanceID: 1990}
     - Class: 114
-      Script: {instanceID: 2040}
+      Script: {instanceID: 2014}
     - Class: 114
-      Script: {instanceID: 2066}
+      Script: {instanceID: 2046}
     - Class: 114
-      Script: {instanceID: 17792}
+      Script: {instanceID: 2072}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -178,24 +178,28 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1638}
     - Class: 114
-      Script: {instanceID: 1768}
+      Script: {instanceID: 1774}
     - Class: 114
-      Script: {instanceID: 1784}
+      Script: {instanceID: 1790}
     - Class: 114
-      Script: {instanceID: 1794}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 1908}
+      Script: {instanceID: 1914}
     - Class: 114
-      Script: {instanceID: 2040}
+      Script: {instanceID: 2046}
     - Class: 114
-      Script: {instanceID: 2048}
+      Script: {instanceID: 2054}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -285,6 +289,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 016d86eef91da4e07df537c07a522d9f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DestroyWhenAnimEnd
   - hash:
       serializedVersion: 2
       Hash: 5ebc58ec194dd44630b25fcc270ad4af
@@ -489,12 +499,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerShooting
-  - hash:
-      serializedVersion: 2
-      Hash: 016d86eef91da4e07df537c07a522d9f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DestroyWhenAnimEnd
   platform: 5
   scenePathNames:
   - Assets/_START_MENU_.unity
