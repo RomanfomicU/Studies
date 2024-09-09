@@ -1,53 +1,61 @@
 package PR1;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.*;
 
 public class Ex2 {
-    public static void main(String[] args) {
-        // Создаем пул потоков
-        ExecutorService executorService = Executors.newFixedThreadPool(5);
-        System.out.println("Enter a number (or 'e' to exit):");
-        // Создаем бесконечный цикл для обработки запросов
-        while (true) {
-            try {
-                // Запрашиваем число у пользователя
-                Scanner scanner = new Scanner(System.in);
-                String userInput = scanner.nextLine();
-                // Проверяем, если пользователь хочет выйти
-                if ("e".equalsIgnoreCase(userInput)) {
-                    break;
-                }
-                // Преобразуем введенное значение в число
-                int number = Integer.parseInt(userInput);
-                // Создаем задачу для вычисления квадрата числа и отправляем в пул потоков
-                Future<Integer> future = executorService.submit(() ->
-                        calculateSquare(number));
-                // Ожидаем завершения задачи и получаем результат
-                try {
-                    int result = future.get();
-                    System.out.println("Result: " + result);
-                } catch (InterruptedException | ExecutionException e) {
-                    System.err.println("Error executing the request: " + e.getMessage());
-                }
-
-            } catch (NumberFormatException e) {
-                System.err.println("Invalid number format. Please enter an integer.");
-            }
-        }
-        // Завершаем пул потоков
-        executorService.shutdown();
-    }
     private static int calculateSquare(int number) {
-        // Имитируем задержку от 1 до 5 секунд
         int delayInSeconds = ThreadLocalRandom.current().nextInt(1, 6);
         try {
             Thread.sleep(delayInSeconds * 1000);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-        // Возвращаем квадрат числа
         return number * number;
     }
-}
+    public static void main(String[] args) {
+        ExecutorService executorService = Executors.newFixedThreadPool(5);
+        // Для хранения всех задач
+        List<Future<Integer>> futureResults = new ArrayList<>();
 
+        while (true) {
+            try {
+                System.out.println("Enter a number (or 'e' to exit):");
+                Scanner scanner = new Scanner(System.in);
+                String userInput = scanner.nextLine();
+
+                if ("e".equalsIgnoreCase(userInput)) {
+                    break;
+                }
+
+                int number = Integer.parseInt(userInput);
+
+                // Отправляем задачу на выполнение и сохраняем Future в список
+                Future<Integer> future = executorService.submit(() -> calculateSquare(number));
+                futureResults.add(future);
+
+                // Параллельно проверяем готовность других задач
+                for (Iterator<Future<Integer>> iterator = futureResults.iterator(); iterator.hasNext();) {
+                    Future<Integer> resultFuture = iterator.next();
+                    if (resultFuture.isDone()) {
+                        try {
+                            int result = resultFuture.get();
+                            System.out.println("Result: " + result);
+                            iterator.remove(); // Убираем завершенные задачи
+                        } catch (InterruptedException | ExecutionException e) {
+                            System.err.println("Error executing the request: " + e.getMessage());
+                            iterator.remove();
+                        }
+                    }
+                }
+
+            } catch (NumberFormatException e) {
+                System.err.println("Invalid number format. Please enter an integer.");
+            }
+        }
+        executorService.shutdown();
+    }
+}
