@@ -33,7 +33,7 @@ public class Ex1 {
             throw new IllegalArgumentException("List is null");
         }
         // Определяем количество доступных процессоров
-        int numberOfThreads = Runtime.getRuntime().availableProcessors();
+        int numberOfThreads = 4;
         // Создаем пул потоков для выполнения задач
         ExecutorService executorService = Executors.newFixedThreadPool(numberOfThreads);
         // Создаем список задач для каждого подсписка
