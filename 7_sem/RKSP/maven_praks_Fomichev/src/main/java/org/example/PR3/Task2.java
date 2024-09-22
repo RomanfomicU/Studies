@@ -34,7 +34,7 @@ class Task22 {
                 (letter, digit) -> String.valueOf(letter) + digit // Формируем строку (буква + цифра)
         );
 
-        combinedStream.subscribe(combined -> System.out.println("Объединенное: " + combined));
+        combinedStream.subscribe(combined -> System.out.println("Merged: " + combined));
     }
 }
 
