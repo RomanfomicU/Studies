@@ -2,12 +2,12 @@ package fomichev.prak_4;
 
 import java.util.List;
 public class PenguinListWrapper {
-    private List<Penguin> cats;
+    private List<Penguin> penguins;
     public List<Penguin> getPenguins() {
-        return cats;
+        return penguins;
     }
     
-    public void setPenguins(List<Penguin> cats) {
-        this.cats = cats;
+    public void setPenguins(List<Penguin> penguins) {
+        this.penguins = penguins;
     }
 }
