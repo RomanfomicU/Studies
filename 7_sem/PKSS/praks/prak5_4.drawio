@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="BUAjLk0wIm9IRsGD13Y6">
+    <mxGraphModel dx="1247" dy="1847" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-1" value="Пользователи" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="455" y="-371" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-2" value="Слой пользовательского отображения" style="shape=folder;html=1;tabWidth=235;tabHeight=30;tabPosition=left;align=left;verticalAlign=top;spacingLeft=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="29.5" y="-507" width="285" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-3" value="Интерфейс пользователя" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="46" y="-450" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-4" value="Логика отображения данных" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="174.5" y="-447" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-10" value="Слой управления трамваями" style="shape=folder;html=1;tabWidth=185;tabHeight=30;tabPosition=left;align=left;verticalAlign=top;spacingLeft=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="29.5" y="-805" width="275" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-11" value="Логика получения данных" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="117" y="-377" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-13" value="Обработка запросов" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120.5" y="-749" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-14" value="Поиск трамваев" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="42" y="-654" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-15" value="Обновление состояний" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="172" y="-654" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-17" value="Системный слой" style="shape=folder;html=1;tabWidth=195;tabHeight=30;tabPosition=left;align=left;verticalAlign=top;spacingLeft=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="384" y="-770" width="196" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-19" value="Безопастность" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="436" y="-694" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-20" value="Очередность операций" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="439" y="-604" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-24" value="Слой управления данными" style="shape=folder;html=1;tabWidth=185;tabHeight=30;tabPosition=left;align=left;verticalAlign=top;spacingLeft=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="22" y="-1015" width="332" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-25" value="Доступ к данным" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="58" y="-960" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-26" value="Передача данных" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-956" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-28" value="Источники данных" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="473" y="-979" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-2" target="LAFnMWI5eK2tXuCV1nDn-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="177" y="-478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-2" target="LAFnMWI5eK2tXuCV1nDn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.867;entryY=0.268;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-13" target="LAFnMWI5eK2tXuCV1nDn-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137.5" y="-669" />
+              <mxPoint x="137.5" y="-669" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.518;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-24" target="LAFnMWI5eK2tXuCV1nDn-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="-886" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=37;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-24" target="LAFnMWI5eK2tXuCV1nDn-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="383" y="-942" />
+              <mxPoint x="383" y="-942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.736;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.637;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-10" target="LAFnMWI5eK2tXuCV1nDn-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="-776" />
+              <mxPoint x="233" y="-776" />
+              <mxPoint x="233" y="-857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.506;entryY=0.255;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-13" target="LAFnMWI5eK2tXuCV1nDn-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="151.5" y="-648" as="sourcePoint" />
+            <mxPoint x="201.5" y="-698" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="227.5" y="-671" />
+              <mxPoint x="227.5" y="-671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAFnMWI5eK2tXuCV1nDn-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=37;exitPerimeter=0;entryX=1.003;entryY=0.829;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" parent="1" source="LAFnMWI5eK2tXuCV1nDn-1" target="LAFnMWI5eK2tXuCV1nDn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="-372" as="sourcePoint" />
+            <mxPoint x="358" y="-422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

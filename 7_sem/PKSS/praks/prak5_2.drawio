@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="WvIWjqXhh4TIYa31ypu3">
+    <mxGraphModel dx="1434" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="txDCEMNUAPutOGjY48iY-1" value="Запрос на трамвай" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-4" target="txDCEMNUAPutOGjY48iY-3">
+          <mxGeometry x="0.0033" y="-20" width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="140" as="sourcePoint" />
+            <mxPoint x="200" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-2" value=":Страница аутентификации" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="txDCEMNUAPutOGjY48iY-2">
+          <mxGeometry x="45" y="110" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="20" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="txDCEMNUAPutOGjY48iY-4">
+          <mxGeometry x="5" y="70" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-6" value=":Пользователи" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="410" y="30" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="txDCEMNUAPutOGjY48iY-6">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-8" value="Поиск пользователя" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-3" target="txDCEMNUAPutOGjY48iY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-9" value="Идентификатор&amp;nbsp;&lt;div&gt;пользователя&lt;div&gt;в системе&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-7" target="txDCEMNUAPutOGjY48iY-3">
+          <mxGeometry x="-0.1333" y="45" relative="1" as="geometry">
+            <mxPoint x="385" y="225" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-10" value=": Датчик неисправностей" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="690" y="30" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="txDCEMNUAPutOGjY48iY-10">
+          <mxGeometry x="42" y="421" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-12" value="Поиск неисправностей" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-2" target="txDCEMNUAPutOGjY48iY-11">
+          <mxGeometry x="0.1333" y="8" relative="1" as="geometry">
+            <mxPoint x="515" y="275" as="sourcePoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-13" value="Список неисправностей" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-11" target="txDCEMNUAPutOGjY48iY-3">
+          <mxGeometry x="-0.1467" y="-5" relative="1" as="geometry">
+            <mxPoint x="310" y="345" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-15" value=": Трамваи" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="530" y="30" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="txDCEMNUAPutOGjY48iY-15">
+          <mxGeometry x="45" y="257" width="10" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-17" value="Поиск трамвая" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-3" target="txDCEMNUAPutOGjY48iY-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-18" value="Номер трамвая" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-16" target="txDCEMNUAPutOGjY48iY-3">
+          <mxGeometry x="-0.0815" y="-6" relative="1" as="geometry">
+            <mxPoint x="535" y="505" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-20" value="Инженер" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="66" y="70" width="68" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-24" value="Номер трамвая" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-3" target="txDCEMNUAPutOGjY48iY-5">
+          <mxGeometry x="0.2" y="-8" relative="1" as="geometry">
+            <mxPoint x="805" y="555" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="274" y="555" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="875" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-27" value="Описание неисправности" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="txDCEMNUAPutOGjY48iY-5">
+          <mxGeometry x="0.1895" y="-7" relative="1" as="geometry">
+            <mxPoint x="295" y="465" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="250" y="465" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="105" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txDCEMNUAPutOGjY48iY-29" value="Запрос на неисправности" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="txDCEMNUAPutOGjY48iY-5" target="txDCEMNUAPutOGjY48iY-3">
+          <mxGeometry x="0.0033" y="-20" width="80" relative="1" as="geometry">
+            <mxPoint x="169" y="340" as="sourcePoint" />
+            <mxPoint x="296.5" y="191" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="213" y="232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

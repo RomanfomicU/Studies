@@ -1,0 +1,237 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="CpQo9axNMmXdXUxVQrX9">
+    <mxGraphModel dx="2390" dy="1300" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:5px;text-align:left;&quot;&gt;&lt;b&gt;sd&lt;/b&gt;&amp;nbsp;Получение пользователя&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=171;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-2" value="Поиск пользователя" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-4" target="SoaExQ1FiMtCEOmptpR4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-3" value=": Страница аутентификации" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="255" y="250" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-3">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-5" value=": Пользователи" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="445" y="250" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-5">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-7" value="Идентификатор пользователя" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-6" target="SoaExQ1FiMtCEOmptpR4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SoaExQ1FiMtCEOmptpR4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="190" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-9" value="Получить запрос пользователя" style="html=1;shape=mxgraph.sysml.package;labelX=40;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-10" value="ref" style="html=1;align=left;verticalAlign=top;labelPosition=left;verticalLabelPosition=top;labelBackgroundColor=none;spacingLeft=5;spacingTop=-2;fontStyle=1;" connectable="0" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-9">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-11" value="" style="shape=rhombus;html=1;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-12" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;align=right;verticalAlign=bottom;endArrow=none;rounded=0;labelBackgroundColor=none;startArrow=open;startSize=12;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-11" target="SoaExQ1FiMtCEOmptpR4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-13" value="Пользователь не найден" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-11" target="SoaExQ1FiMtCEOmptpR4-15">
+          <mxGeometry x="-0.1433" y="10" relative="1" as="geometry">
+            <mxPoint x="500" y="470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-14" value="Пользователь найден" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-11" target="SoaExQ1FiMtCEOmptpR4-21">
+          <mxGeometry x="-0.2" y="70" relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-15" value="Вернуть ошибку" style="html=1;shape=mxgraph.sysml.package;labelX=40;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-16" value="ref" style="html=1;align=left;verticalAlign=top;labelPosition=left;verticalLabelPosition=top;labelBackgroundColor=none;spacingLeft=5;spacingTop=-2;fontStyle=1;" connectable="0" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-15">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-17" value="" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="770" y="450" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-15" target="SoaExQ1FiMtCEOmptpR4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-19" value="" style="shape=ellipse;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-19" target="SoaExQ1FiMtCEOmptpR4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:5px;text-align:left;&quot;&gt;&lt;b&gt;sd&lt;/b&gt;&amp;nbsp;Данные трамваев&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=133.5;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="520" width="345" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-22" value="Поиск трамвая" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-24" target="SoaExQ1FiMtCEOmptpR4-26">
+          <mxGeometry x="-0.0556" y="4" relative="1" as="geometry">
+            <mxPoint x="420" y="605" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-23" value=": Страница аутентификации" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="255" y="550" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-23">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-25" value=": Трамваи" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="445" y="550" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-25">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-27" value="Номер трамвая" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-26" target="SoaExQ1FiMtCEOmptpR4-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-28" value="" style="shape=rhombus;html=1;labelPosition=right;align=left;verticalAlign=middle" vertex="1" parent="1">
+          <mxGeometry x="380" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-29" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;align=right;verticalAlign=bottom;rounded=0;labelBackgroundColor=none;endArrow=open;endSize=12;" edge="1" parent="1" target="SoaExQ1FiMtCEOmptpR4-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-30" value="Нет неисправных трамваев" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;align=right;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-28" target="SoaExQ1FiMtCEOmptpR4-60">
+          <mxGeometry x="-0.9223" y="-10" relative="1" as="geometry">
+            <mxPoint x="280" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="748" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-31" value="Есть неисправный трамвай" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;align=left;endArrow=open;rounded=0;labelBackgroundColor=none;verticalAlign=bottom;endSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-28" target="SoaExQ1FiMtCEOmptpR4-32">
+          <mxGeometry x="-0.2068" y="-2" relative="1" as="geometry">
+            <mxPoint x="530" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="750" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:5px;text-align:left;&quot;&gt;&amp;nbsp;sd Поиск неисправностей&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=160;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="455" y="830" width="355" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-33" value="Поиск неисправностей" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-35" target="SoaExQ1FiMtCEOmptpR4-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642.5" y="915" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-34" value=": Страница аутентификации" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="860" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-34">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-36" value=": Датчик неисправностей" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="860" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-36">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-38" value="Список неисправностей" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-37" target="SoaExQ1FiMtCEOmptpR4-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642.5" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-43" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;startArrow=open;endArrow=none;rounded=0;labelBackgroundColor=none;startSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.585;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-45" target="SoaExQ1FiMtCEOmptpR4-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="1070" />
+            </Array>
+            <mxPoint x="445" y="1070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:5px;text-align:left;&quot;&gt;&lt;b&gt;sd&lt;/b&gt;&amp;nbsp;Уведомление инженера&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=176.33;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="396" y="1101" width="405" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-46" value=": Страница аутентификации" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="453.5" y="1141" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-46">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-48" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="699" y="1141" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="SoaExQ1FiMtCEOmptpR4-48">
+          <mxGeometry x="5" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-50" value="Инженер" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1151" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-51" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-47" target="SoaExQ1FiMtCEOmptpR4-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="508.5" y="1201" as="sourcePoint" />
+            <mxPoint x="688.5" y="1201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-52" value="Номер трамвая" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SoaExQ1FiMtCEOmptpR4-51">
+          <mxGeometry x="0.2668" y="-1" relative="1" as="geometry">
+            <mxPoint x="-22" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-53" value="" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="304" y="1482" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-58" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-47" target="SoaExQ1FiMtCEOmptpR4-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="511" y="1253" as="sourcePoint" />
+            <mxPoint x="683" y="1253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-59" value="Список неисправностей" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SoaExQ1FiMtCEOmptpR4-58">
+          <mxGeometry x="0.2668" y="-1" relative="1" as="geometry">
+            <mxPoint x="-22" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-60" value="" style="shape=rhombus;html=1;labelPosition=right;align=left;verticalAlign=middle" vertex="1" parent="1">
+          <mxGeometry x="304" y="1403" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-63" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;align=right;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-45" target="SoaExQ1FiMtCEOmptpR4-60">
+          <mxGeometry x="-0.9223" y="-10" relative="1" as="geometry">
+            <mxPoint x="324" y="1403" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="382" y="1423" />
+              <mxPoint x="345" y="748" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="380" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoaExQ1FiMtCEOmptpR4-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SoaExQ1FiMtCEOmptpR4-60" target="SoaExQ1FiMtCEOmptpR4-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="1472" as="sourcePoint" />
+            <mxPoint x="391" y="1422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="BxiuTFdqJ_sHK-reySR9">
+    <mxGraphModel dx="1434" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-2" target="22I4GL6KAfR2uRZFUCGR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-2" value="Принять запрос главного инженера" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-5" target="22I4GL6KAfR2uRZFUCGR-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="205" />
+              <mxPoint x="430" y="273" />
+              <mxPoint x="460" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-5" target="22I4GL6KAfR2uRZFUCGR-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-5" value="Получить информацию о трамваях" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-8" target="22I4GL6KAfR2uRZFUCGR-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="365" />
+              <mxPoint x="430" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-8" target="22I4GL6KAfR2uRZFUCGR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-8" value="Вычислить тип операции" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-11" target="22I4GL6KAfR2uRZFUCGR-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="280" />
+              <mxPoint x="250" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-11" target="22I4GL6KAfR2uRZFUCGR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-11" value="sync&amp;amp;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-13" target="22I4GL6KAfR2uRZFUCGR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-13" value="async&amp;amp;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-15" target="22I4GL6KAfR2uRZFUCGR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-15" value="Проверить корректность операции" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-19" target="22I4GL6KAfR2uRZFUCGR-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="360" />
+              <mxPoint x="730" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-17" value="Операция выбрана&amp;nbsp;&lt;div&gt;не корректно&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22I4GL6KAfR2uRZFUCGR-16">
+          <mxGeometry x="0.35" y="-1" relative="1" as="geometry">
+            <mxPoint x="-59" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-19" target="22I4GL6KAfR2uRZFUCGR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-19" value="XOR" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="260" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-20" value="Оповестить пользователя об ошибке" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="675" y="377.47" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1196" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-22" value="Передать номер трамвая инженеру" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="996" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-24" target="22I4GL6KAfR2uRZFUCGR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-24" value="Вычислить номер запрашиваемого трамвая" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="785" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-28" value="Изменить статус трамвая в системе" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="993" y="297" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-32" target="22I4GL6KAfR2uRZFUCGR-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="273" />
+              <mxPoint x="970" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-32" target="22I4GL6KAfR2uRZFUCGR-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="298" />
+              <mxPoint x="970" y="322" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-32" value="syncO" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="920" y="260" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-34" target="22I4GL6KAfR2uRZFUCGR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-34" value="Список трамваев" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="22I4GL6KAfR2uRZFUCGR-36" target="22I4GL6KAfR2uRZFUCGR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22I4GL6KAfR2uRZFUCGR-36" value="Наименование операции" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
