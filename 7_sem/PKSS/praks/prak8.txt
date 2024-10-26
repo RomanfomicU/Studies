@@ -1,0 +1,108 @@
+//8.1
+@startuml
+class DatabaseConnection {
+    - instance: DatabaseConnection
+    - connectionParams: String
+    + getInstance(): DatabaseConnection
+    + connect(): void
+    + disconnect(): void
+}
+
+class Tram {
+    - id: int
+    - status: String
+    + getStatus(): String
+    + setStatus(String): void
+}
+
+class User {
+    - id: int
+    - name: String
+    + register(): void
+    + login(): void
+}
+
+class TramFactory {
+    + createTram(): Tram
+}
+
+class TramStatusNotifier {
+    - observers: List<Observer>
+    + addObserver(Observer): void
+    + removeObserver(Observer): void
+    + notifyObservers(): void
+}
+
+interface Observer {
+    + update(): void
+}
+
+class ExternalSystemAdapter {
+    + requestData(): String
+    + sendData(String): void
+}
+
+class FacadeService {
+    - tramService: TramService
+    - userService: UserService
+    + handleRequest(): void
+}
+
+class CircuitBreaker {
+    - isOpen: boolean
+    + executeRequest(): void
+}
+
+class TramService {
+    + updateTramStatus(): void
+}
+
+class UserService {
+    + registerUser(): void
+    + loginUser(): void
+}
+
+DatabaseConnection "1" -- "1..*" Tram
+TramFactory "1" -- "1..*" Tram
+TramStatusNotifier "1" -- "0..*" Observer
+TramService "1" -- "1" Tram
+UserService "1" -- "1" User
+FacadeService "1" -- "1" TramService
+FacadeService "1" -- "1" UserService
+ExternalSystemAdapter "1" -- "1" TramService
+Tram "1" -- "1" TramStatusNotifier
+CircuitBreaker "1" -- "1" TramService
+@enduml
+
+
+// 8.2
+@startuml
+actor User
+participant "FacadeService" as Facade
+participant "TramService" as Tram
+participant "TramStatusNotifier" as Notifier
+participant "Observer" as Observer
+
+User -> Facade: handleRequest()
+Facade -> Tram: updateTramStatus()
+Tram -> Notifier: notifyObservers()
+Notifier -> Observer: update()
+@enduml
+
+// 8.3
+@startuml
+package "Client-Server System" {
+    component "FacadeService" {
+        [UserService]
+        [TramService]
+    }
+    component "Database" {
+        [DatabaseConnection]
+    }
+    component "ExternalSystem" {
+        [ExternalSystemAdapter]
+    }
+    [FacadeService] --> [Database]
+    [FacadeService] --> [ExternalSystem]
+}
+@enduml
