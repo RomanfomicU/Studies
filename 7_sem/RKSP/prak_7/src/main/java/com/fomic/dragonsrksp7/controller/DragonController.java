@@ -31,13 +31,13 @@ public class DragonController {
     public Flux<Dragon> getAllDragons(@RequestParam(name = "minage", required = false) Integer minAge) {
         Flux<Dragon> dragons = dragonRepository.findAll();
         if (minAge != null && minAge > 0) {
-// Если параметр "minage" указан, применяем фильтрацию
+            // Если параметр "minage" указан, применяем фильтрацию
             dragons = dragons.filter(dragon -> dragon.getAge() >= minAge);
         }
         return dragons
                 .map(this::transformDragon) // Применение оператора map для преобразования объектов Dragon
                 .onErrorResume(e -> {
-// Обработка ошибок
+                    // Обработка ошибок
                     return Flux.error(new CustomException("Failed to fetch dragons", e));
                 })
                 .onBackpressureBuffer(); // Работа в формате backpressure
@@ -74,7 +74,7 @@ public class DragonController {
     }
 
     private Dragon transformDragon(Dragon dragon) {
-// Пример преобразования объекта Dragon
+        // Пример преобразования объекта Dragon
         dragon.setName(dragon.getName().toUpperCase()); // Преобразование имени кота в верхний регистр
         return dragon;
     }
