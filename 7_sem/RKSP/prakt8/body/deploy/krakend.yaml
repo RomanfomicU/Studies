@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   name: krakend
 ---
-apiVersion: v1
+apiVersion: v1 #Fomichev
 kind: ConfigMap
 metadata:
   name: krakend-config

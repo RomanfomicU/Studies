@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: eureka
-        image: "mshizik/eureka:latest"
+        image: "romanfomic/eureka:latest"
         ports:
         - containerPort: 8700
         env:

@@ -1,7 +1,7 @@
 package mirea.fomichev.notifications.service;
 
-import mirea.fomichev.notifications.dto.Client;
-import mirea.fomichev.notifications.feign.ClientServiceFeignClient;
+import mirea.fomichev.notifications.dto.User;
+import mirea.fomichev.notifications.feign.UserServiceFeignUser;
 import mirea.fomichev.notifications.model.Notification;
 import mirea.fomichev.notifications.repository.NotificationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +16,10 @@ public class NotificationService {
     private NotificationRepository notificationRepository;
 
     @Autowired
-    private ClientServiceFeignClient clientServiceFeignClient;
+    private UserServiceFeignUser clientServiceFeignClient;
 
     public Notification createNotification(Notification notification) {
-        ResponseEntity<Client> clientResponse = clientServiceFeignClient.getClientById(notification.getClientId());
+        ResponseEntity<User> clientResponse = clientServiceFeignClient.getClientById(notification.getClientId());
         if (!clientResponse.getStatusCode().is2xxSuccessful()) {
             throw new IllegalArgumentException("Client does not exist");
         }
